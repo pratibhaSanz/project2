@@ -1,0 +1,267 @@
+/* CSS Reset  */
+*{
+    margin: o;
+    padding: 0;
+}
+
+/* Variables  */
+
+:root{
+    --navbar-height: 59px;
+}
+/* Navigation bar  */
+   #navbar{
+       display: flex;
+       align-items: center;
+
+       
+   }
+/*  Navigation bar : logo and image  */
+#logo{
+    margin: -31px 14px;
+
+
+}
+#logo img{
+    margin: 11px 48px;
+    height: 64px;
+
+}
+
+/*  Navigation bar : list styling  */
+ #navbar ul{
+    display: flex;
+    font-family: 'Hammersmith One', sans-serif;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -3;
+    opacity: 0.4;
+ }
+ #navbar ul li{
+     font-size:37px;
+     list-style: none;
+     color: brown;
+     /* background-color: burlywood;  */
+ }
+
+ 
+ #navbar ul li a{
+     color: rgb(108 32 32);
+     padding: 3px 34px;
+     display: block; 
+     border-radius: 30px;
+     text-decoration: none;   
+     /* the underline gone out with text decoratin  */
+ }
+ #navbar ul li a:hover {
+   color:black ;
+   background-color: wheat;
+}
+#navbar{
+    position: relative;
+}
+
+/* home section  */ 
+#home{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    height: 277px;
+    margin-bottom:  112px;
+}
+#home::before{
+    content: "";
+    background: url('../df6.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 64%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -3;
+    opacity: 0.89;
+   
+  }
+  /* services section  */
+     #services{
+        margin: 129px 41px;
+        display: flex;
+        height: 348px;
+        padding: 153px -7px;
+     }
+     #services .box{
+        border: 3px solid brown;
+        width: 300%;
+        padding: 35px;
+        margin: -92px 10px;
+        height: 93%;
+        border-radius: 24px;
+        background-color: rgb(229 187 172);
+         
+    }
+    #services .box img{
+        height: 190px;
+        display: block;
+        margin:auto;
+        
+   }
+    #services.box p{
+        font-family: 'Aclonica', sans-serif;
+         
+    }
+    #services{
+         
+    } 
+    #services{
+         
+    }
+
+    /* clients section  */
+    #client-section{
+        height: 344px;
+
+
+    }
+    #client-section::before{
+        content: "";
+        position: absolute;
+        background: url(../d89.jpg);
+        width: 100%;
+        height: 59%;
+        opacity: 0.4;
+        z-index: -1;
+    
+
+
+    }
+    .client-item{
+        padding: 34px;
+    }
+    #clients{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #clients img{
+        height: 136px;
+    }
+
+    /* conatct sectoin  */
+    #contact{
+        
+         position: relative;
+    margin: 46px -14px;
+    padding: 56px 8px;
+}
+        #contact-box{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 0px;
+               }
+        #contact-box input,
+        #contact-box textarea{
+            width: 99%;
+            padding: 0.5rem;
+            border-radius: 9px;
+            font-size: 15px;
+        }
+        #contact-box form{
+            width: 40%;
+        }
+        #contact-box label{
+            font-size: 25px;
+            font-family: 'Aclonica', sans-serif; ;
+        }
+
+    
+    #contact::before{
+        content: "";
+        width: 99%;
+        position: absolute;
+        height: 100%;
+        opacity: 0.7;
+        z-index: -1;
+        background: url(../d89.jpg) no-repeat center center/cover ;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        padding: 9px ;
+        text-align: center; 
+    }
+        /* utility class  */
+        
+  #home h3{
+      text-align: center;
+      color: white;
+      font-size: 3rem;
+      padding: auto;
+      margin-bottom: 8px;
+      font-family: 'Aclonica', sans-serif;
+      
+      
+  }
+  #home p{
+    text-align: center;
+    color: white;
+    font-family: Arapey, serif;
+    font-size: 1rem;
+    margin: 8px -50px;
+}
+  }
+ .h-primary{
+    font-size:  3.8rem;
+    padding: 0px;
+    margin: 80px;
+    text-align: center;
+    margin: 164px;
+    font-family: 'Aclonica', sans-serif;
+    
+    
+ }
+ .h-secondary{
+    font-size: 2rem;
+    padding: 4px;
+    margin: 2px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+ }
+ .btn{
+     
+     margin: 34px;
+    border: 4px solid #ca7575;
+    background-color: brown;
+    color: white;
+    padding: 4px 4px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+     
+ }
+ center {
+     text-align: center;
+ }
+ .h-primary-center{
+    text-align: center;
+    font-size: 64px;
+    margin: -75px 115px;
+    padding: 74px;
+    
+    font-family: 'Aclonica', sans-serif;
+ }
+
+  
+
+    
+
+  
